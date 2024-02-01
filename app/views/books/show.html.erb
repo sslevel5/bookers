@@ -1,0 +1,33 @@
+<!-- <p>Book was successfully created.</p>  -->
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- FontAwesomeの読み込み -->
+  <link rel="stylesheet" href="application.css" />
+  <title>WebCampBackendNew</title>
+</head>
+
+<body class="body">
+
+<div class="flash">
+  <%= flash[:notice] %>
+</div>
+<div class="flash">
+  <%= flash[:up] %>
+</div>
+
+
+
+<p class="show"><strong>Title:</strong> <%= @book.title %></p>
+
+<p class="show"><strong>Body:</strong> <%= @book.body %></p>
+
+
+<%= link_to "Edit", edit_book_path(@book.id) %><a>|</a>
+
+<%= link_to "Back", "/books" %>
+
+
+</body>
+</html>

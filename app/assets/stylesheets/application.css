@@ -1,0 +1,105 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #222222;
+}
+
+.top-body{
+  margin: 33px;
+}
+
+.top-top{
+  margin-bottom: 33px;
+  margin-top: 33px;
+}
+
+.top{
+  margin: 33px;
+}
+
+
+div{
+  width: 100%;
+  max-width: 600px;
+}
+
+.in-h1{
+  width: auto;
+}
+
+.in-body{
+  width:  auto;
+  margin: 33px;
+}
+
+table {
+    width: auto;
+}
+
+.td{
+  width: auto;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+}
+
+.h{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.hh{
+  margin-top: 15px;
+}
+
+
+.body{
+  margin: 33px;
+}
+
+.show{
+  margin: 33px;
+}
+
+.flash{
+  margin: 33px;
+  color: #00FF00;
+}
+
+.error {
+  margin: 20px;
+}
+.error-title {
+  background-color: #dc143c;
+  color: #fff;
+  padding: 0.5em 20px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+.error-txt {
+  padding: 10px 60px;
+  font-size: 15px;
+  border: 2px solid #dc143c;
+  background-color: #ffc0cb;
+}
