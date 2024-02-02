@@ -24,9 +24,7 @@
 <p class="show"><strong>Body:</strong> <%= @book.body %></p>
 
 
-<%= link_to "Edit", edit_book_path(@book.id) %><a>|</a>
-
-<%= link_to "Back", "/books" %>
+<p><%= link_to "Edit", edit_book_path(@book.id) %> | <%= link_to "Back", "/books" %></p>
 
 
 </body>
